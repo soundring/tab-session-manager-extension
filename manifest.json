@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Session Manager",
+  "version": "1.0",
+  "description": "Save and restore groups of tabs as named sessions.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
